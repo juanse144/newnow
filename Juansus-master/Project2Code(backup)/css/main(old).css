@@ -10,9 +10,6 @@ body {
 	-webkit-font-smoothing: antialiased;
 }
 
-
-
-
 .flex-item-footer img{
 
 	/*text-align: center;*/
@@ -63,7 +60,7 @@ h1 {
 h2 {
 	
 	font-size: 3em; 
-	margin-top: 5rem;
+	margin-top: 8rem;
 	margin-bottom: 0;
 	margin-left: .3em;
 	color: #FFF;
@@ -79,6 +76,11 @@ background-color: white;
 
 h3{
 	font-size: 2.25rem;
+	margin-top: auto;
+	margin-bottom: 0;
+	padding: 5em 0;
+	text-align: center;
+	color: #0080bb;
 	
 }
 
@@ -89,6 +91,12 @@ textarea{
 	float:left;
 }
 
+.Indicator-steps{
+	height: .8em;
+	width: auto;
+	margin-left: 1.5em;
+	margin-bottom: 6em; 
+}
 .Review-feed h3 {
 	font-size: 2.25rem;
 	margin: auto;
@@ -98,15 +106,7 @@ textarea{
 	
 }
 
-.Indicator-steps{
-	height: .8em;
-	width: auto;
-	margin-left: 1.5em;
-	margin-bottom: 6em; 
-}
-
 /*BUY PAGES*/
-
 
 .Buy-heading{
 	position: fixed;
@@ -125,15 +125,13 @@ textarea{
 	background-color: #0080bb;
 }
 
-/*vvv  SEARCH BAR vvv*/
+/* SEARCH BAR */
 
 .Buy-heading .buy-and-search{
 
 	width: 100%;
 	display: inline-block;
 }
-
-
 
 .search-box{
 	margin-left: 2em;
@@ -188,7 +186,6 @@ textarea{
    color: #000;  
 }
 
-
 .container-1 .icon{
  float: left;
   margin: .4em .8em;
@@ -229,7 +226,6 @@ textarea{
 
 }
 
-/*^^^  END OF SEARCH BAR ^^^*/
 
 /*vvv  Bread Crumbs vvv*/
 
@@ -314,12 +310,76 @@ textarea{
 
 /*^^ END OF bread crumbs ^^*/
 
+/*SELL PAGES*/
+
+.form{
+	margin-left: 8vw;
+	margin-bottom: 4em;
+	margin-top: -5em;
+}
 
 
+.h1s{
+	color: #333;
+	text-align: center;
+	margin-bottom: -2em;
+}
+
+.h3s{
+	margin-bottom: -2em;
+}
+
+.feedback{
+	margin-left: 3vw;
+	margin-top: -7em;
+	float: left;
+}
+
+.share {
+	margin-top: -20em;
+}
+.twitter {
+	margin-right: 8vw;
+}
+
+
+
+/*BUY PAGES*/
+
+
+.Buy-heading{
+	position: fixed;
+	background-color: #0080bb;
+	width: 100%;
+	z-index: 9;
+}
+
+.Buy1-title{
+	    margin-top: 0;
+    padding-top: 2em;
+    padding-bottom: .2em;
+	background-color: #0080bb;
+}
+
+.arrowicon{
+  width: 2em;
+  height: 2em;
+  margin-top: 0.2em;
+  margin-bottom:0.2em;
+
+}
+
+.arrowiconleft{
+  width: 2em;
+  height: 2em;
+  margin-top: 0.2em;
+  margin-bottom:0.2em;
+  transform:rotate(180deg);
+}
 
 /*STATES LIST*/
 
-.flex-item-buy img {
+.flex-item img {
 	height: auto; 
 	width: auto;
 	max-width: 100%;
@@ -327,15 +387,13 @@ textarea{
 }
 
 
-.flex-item-buy figure {
+.flex-item figure {
 	display: block;
 	position: relative;
 	overflow: hidden;
 	margin: 0;
 
 }
-
-
 
 
 figcaption {
@@ -368,17 +426,6 @@ figure:hover figcaption, figure:focus figcaption{
 
 }
 
-@media (max-width:50em){
-
-	figcaption{
-
-		opacity: 1;
-	bottom: 0;
-
-	}
-
-}
-
 /*STATES LIST ENDS*/
 
 
@@ -386,10 +433,9 @@ figure:hover figcaption, figure:focus figcaption{
 
 
 .title-About{
-	margin-bottom: 1em;
+	margin-bottom: 1.5em;
 	color: white;
 }
-
 
 
 .grid-col-5of10 p{
@@ -410,13 +456,13 @@ p, ol {
 
 }
 
+
 /* SECTION BOXES */
 article {
 	text-align: left;
 	margin: 0; 
-	/*background-color: #0080bb;*/
+	
 	border: 1px solid white;
-	/*border-bottom: solid #0080bb;*/
 
 }
 
@@ -425,6 +471,7 @@ article p{
 	margin-right: 1em;
 	color: white;
 }
+
 
 #Home {
 	position: relative;
@@ -435,58 +482,45 @@ article p{
 	background-size: cover;
 
 }
-.About-titles{
-	color: #333;
-	margin: 0;
-
-}
 
 #About {
 	background-color: #0080bb;
-
 }
 
 
 #Buy {
 	background-color: #0080bb;
-	padding-right: 5em;
 }
 
 #Sell {
 	background-color: #ED1B24;
-	padding-right: 5em;
 }
 
-
-.chevrons{
+.material-icons{
 	margin-left: 1em;
+    
     color: #FFF;
     border: .123em solid #FFF;
     border-radius: 2em;
 }
 
-.chevrons:hover, .chevrons:active{
+.material-icons:hover, .material-icons:active{
 	color: #333;
 	border-color: #333;
 }
 
-.flex-item-footer{
-	/*margin: 0 auto;*/
-	text-align: center;
+#Contact p{
+	margin-top: 1.35em;
+	padding-left: 1em;
 }
-
-#Contact h4{
-
-	margin:2em 1em 1em 1em;
-	color: #999;
-
-}
-
 footer{
 	display: inline-block;
 }
 
-
+h4{
+	float:left;
+	display: inline;
+}
 
 
 footer p{
@@ -501,7 +535,7 @@ footer p{
 .grid-col-3of10 figure {
 
 	position: relative;
-	margin: 2em 2em 1em 2em;
+	margin: 2em;
 
 }
 
@@ -509,10 +543,10 @@ footer p{
 
 .grid-col-3of10 img {
 	height: auto;
-	padding: .4em; 
-	border: .2em solid white;
+	padding: .3em; 
+	border: .3em solid black;
 	border-radius: 3em;
-	max-width: 5.4em;
+	max-width: 5.500em;
 	z-index: -1;
 }
 
@@ -598,7 +632,6 @@ nav {
 }
 
 
-
 .button-nav:hover, .button-nav:active, .button-nav:focus {
 	
 	color: #ED1B24;
@@ -610,61 +643,147 @@ nav {
   transform: scaleY(.15);
 }
 
+.register{
+ position:relative;
+  margin-right: auto;
+  margin-left: auto;
+}
+.yes {
+  font-family: 'Arvo', serif;
+  width:40%;
+  letter-spacing: 1em;
+  display: inline-block;
+  margin-left:4vw;
+  margin-top: 1em;
+  margin-bottom: 8em;
+  padding: 1em;
+  color: white;
+  text-decoration: none;
+  background-color: #ED1B24;
+  border-radius: 4px;
+  text-align: middle;
+  text-align: center;
+  -webkit-transition: background-color 1s ease-out;
+  transition: background-color 1s ease-out;
+  -webkit-transition: color 1s ease-out;
+  transition: color 1s ease-out;
+  -webkit-transition: border-width 0.2s ease-out;
+  transition: border-width 0.2s ease-out;
+}
 
+.no {
+  font-family: 'Arvo', serif;
+  width: 40%;
+  letter-spacing: 1em;
+  float: right;
+  display: inline-block;
+  margin-left:11vw;
+  margin-right: 2em;
+  margin-top: 1em;
+  margin-bottom: 1em;
+  padding: 1em 1em;
+  color: white;
+  background-color: #ED1B24;
+  border-radius: 4px;
+  text-align: middle;
+  text-align: center;
+  text-decoration: none;
+  -webkit-transition: background-color 1s ease-out;
+  transition: background-color 1s ease-out;
+  -webkit-transition: color 1s ease-out;
+  transition: color 1s ease-out;
+  -webkit-transition: border-width 0.2s ease-out;
+  transition: border-width 0.2s ease-out;
+}
+
+.arrows1 {
+  font-family: 'Arvo', serif;
+  margin-right: -0.5em;
+  margin-left: 0.9em;
+  padding: 1em 1em;
+  color: black;
+  background-color: #ED1B24;
+  border-radius: 180px;
+  text-align: middle;
+  text-align: center;
+  width:4.5em;
+  -webkit-transition: background-color 1s ease-out;
+  transition: background-color 1s ease-out;
+  -webkit-transition: color 1s ease-out;
+  transition: color 1s ease-out;
+  -webkit-transition: border-width 0.2s ease-out;
+  transition: border-width 0.2s ease-out;
+  float:left;
+}
+
+
+.arrows2 {
+  font-family: 'Arvo', serif;
+  margin-right: 0.9em;
+  padding: 1em 1em;
+  color: black;
+  width: 4.5em;
+  background-color: #ED1B24;
+  border-radius: 180px;
+  text-align: middle;
+  text-align: center;
+  -webkit-transition: background-color 1s ease-out;
+  transition: background-color 1s ease-out;
+  -webkit-transition: color 1s ease-out;
+  transition: color 1s ease-out;
+  -webkit-transition: border-width 0.2s ease-out;
+  transition: border-width 0.2s ease-out;
+  float:right;
+}
 
 .menu, .exit{
 	position: fixed;
 	z-index: 10;
-	margin-bottom: -0.5em;
+	margin-bottom: -1em;
 	background-color: #FFF;
-	/*padding: 1em 100% 1em 1em;*/
-	/*display: none;*/
+	padding: 1em 100% 1em 1em;
+	display: none;
 	text-decoration: none;
-	font-family: "Chivo", Verdana, sans-serif;
+	font-family: Verdana, sans-serif;
 	color: #555;
 	/*border-bottom: .1em solid #333;*/
 	box-shadow: 0 .15em 0 0 rgba(0, 0, 0, 0.1);
 }
 
-
 .menu:hover, .exit:hover{
 	color: #ED1B24;
 }
 
-.menu.hidden {
-	visibility: hidden;
-	position: absolute;	
-}
-
-.menu.shown {
-	padding: 1em 100% 1em 1em;
-	position: fixed;
-	visibility: visible;
-}
-
-.exit.hidden {
-	visibility: hidden;
-	position: absolute;	
-}
-
-.exit.shown {
-	padding: 1em 100% 1em 1em;
-	position: fixed;
-	visibility: visible;
-}
 
 
 
-/* NAV MOBILE MENU BUTTON & TITLE */
+
+/* NAV MOBILE MENU BUTTON */
 
 @media (max-width: 30em) {
 
-
-
-	nav{
-		top: 3.2em;
+	.menu {
+		
+		display: block;
+			
 	}
 
+	#top{
+
+	display: none;
+
+
+	}
+
+	nav{
+		top: 3em;
+	}
+
+	#top:target {
+
+	display: block;
+
+	}
 
 	h1{
 		display: none;
@@ -681,6 +800,26 @@ nav {
 
 
 }
+
+
+article a {
+	color: #FFF; 
+	font-style: italic;
+	text-decoration: none;
+}
+
+
+article a:visited {
+	color: #FFF;
+	text-decoration: none;
+}
+
+
+article a:active, article a:hover {
+	color: #555; 
+	text-decoration: none;
+}
+
 
 /*FILTER BOX FOR COUNTY*/
 
@@ -719,3 +858,4 @@ nav {
 	font-weight: 400;
 	display: inline-block;
 }
+
